@@ -3,8 +3,8 @@ import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
 
-class ListExamples {
-
+class ListExamples implements StringChecker{
+  //write method for what you wanr string checker to do
   // Returns a new list that has all the elements of the input list for which
   // the StringChecker returns true, and not the elements that return false, in
   // the same order they appeared in the input list;
